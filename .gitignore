@@ -1,0 +1,27 @@
+# Private signing keys
+*.keystore
+*.jks
+*.pk8
+*.pem
+keys/
+
+# Pulled proprietary APKs / system files
+apk/
+NQNfcNci.apk
+
+# Build outputs
+compiled.zip
+*-unsigned.apk
+*-aligned.apk
+classes/
+dexout/
+
+# Release assets should be uploaded to GitHub Releases, not committed
+*.zip
+*.sha256
+
+# Editor/system files
+.DS_Store
+*.swp
+.idea/
+.vscode/

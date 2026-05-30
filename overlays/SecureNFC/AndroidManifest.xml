@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rodin.overlay.secure.nfc"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="31"
+        android:targetSdkVersion="36" />
+
+    <application
+        android:hasCode="false"
+        android:label="Rodin Secure NFC Overlay" />
+
+    <overlay
+        android:targetPackage="com.android.nfc"
+        android:targetName="NfcCustomization"
+        android:isStatic="true"
+        android:priority="999" />
+
+</manifest>

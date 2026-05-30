@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_secure_nfc_support">true</bool>
+    <bool name="secure_nfc_default">true</bool>
+
+    <string-array name="config_skuSupportsSecureNfc">
+        <item>rodin</item>
+    </string-array>
+</resources>

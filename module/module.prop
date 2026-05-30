@@ -1,0 +1,6 @@
+id=rodin_capability_extension
+name=Rodin Capability Extension
+version=1.0
+versionCode=1
+author=NEESCHAL 🇳🇵
+description=Verified capability enablement package for POCO X7 Pro / rodin. Enables Pro Audio, Unprocessed Audio Source, and Secure NFC through permission declarations, resource overlays, and rodin SKU normalization.
